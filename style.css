@@ -49,7 +49,6 @@ color: #cfe2ff; /* lighter blue on hover */
     position: absolute;
     inset: 0;
     background: url('public/image.png') no-repeat center/cover;
-    filter: blur(5px);
     z-index: 0;
 }
 
@@ -64,11 +63,12 @@ color: #cfe2ff; /* lighter blue on hover */
 .hero-text {
     position: relative;
     z-index: 2;
-    color: white;
+    color: lightsalmon;
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
 }
 
 .about {
@@ -137,5 +137,6 @@ button {
 .hero-wrap {
     position: flex-column;
     align-items: center;
+    justify-items: center;
     
 }
