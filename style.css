@@ -10,23 +10,29 @@ html {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-    background: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 40px;
+background: #0d6efd; /* blue background */
 }
 
 .logo {
-    font-weight: bold;
-    font-size: 20px;
+color: white;
+font-size: 20px;
+font-weight: bold;
 }
 
 nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
+color: white;
+text-decoration: none;
+margin-left: 25px;
+font-size: 14px;
+transition: 0.3s;
+}
+
+nav a:hover {
+color: #cfe2ff; /* lighter blue on hover */
 }
 
 .hero {
