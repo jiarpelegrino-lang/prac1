@@ -38,7 +38,14 @@ color: #cfe2ff; /* lighter blue on hover */
 .hero {
     position: relative;
     height: 100vh;
-    background: url('resort.jpg') no-repeat center/cover;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .overlay {
