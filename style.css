@@ -60,6 +60,40 @@ color: #cfe2ff; /* lighter blue on hover */
     letter-spacing: 2px;
 }
 
+.about {
+    position: relative;
+    min-height: 60vh;
+    padding: 60px 40px;
+    display: flex;
+    align-items: center;
+    background: url('public/image2.png') no-repeat left center;
+    background-size: 40%;
+    color: white;
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05));
+}
+
+.about-content {
+    position: relative;
+    z-index: 1;
+    max-width: 45%;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
 .content {
     position: absolute;
     top: 50%;
